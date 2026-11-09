@@ -1,4 +1,4 @@
-# Project 1, Salary Dashboard
+# Salary Dashboard
 
 File: [`1_Salary_Dashboard.xlsx`](https://github.com/chaganty18/Excel_Dashboards_Analysis/blob/main/Project1-Dashboard/1_Salary_Dashboard.xlsx)
 
