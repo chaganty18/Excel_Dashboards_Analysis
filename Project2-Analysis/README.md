@@ -1,4 +1,4 @@
-# Project 2, Project Analysis
+#  Analysis
 
 File: [`1_Project_Analysis.xlsx`](https://github.com/chaganty18/Excel_Dashboards_Analysis/blob/main/Project2-Analysis/1_Project_Analysis.xlsx)
 
