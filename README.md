@@ -14,8 +14,8 @@ This project explores data job postings to answer practical questions for anyone
 
 The project is split into two parts, each with its own README:
 
-- **[Project 1, Salary Dashboard](Project1-Dashboard/README.md)**: a single page interactive dashboard for exploring salary, country, and job type.
-- **[Project 2, Project Analysis](Project2-Analysis/README.md)**: PivotTable based analysis of salaries against skills, region, and platform, including the Power Query and Data Model work behind it.
+- **[Project 1, Salary Dashboard](https://github.com/chaganty18/Excel_Dashboards_Analysis/blob/main/Project1-Dashboard/README.md)**: a single page interactive dashboard for exploring salary, country, and job type.
+- **[Project 2, Project Analysis](https://github.com/chaganty18/Excel_Dashboards_Analysis/blob/main/Project2-Analysis/README.md)**: PivotTable based analysis of salaries against skills, region, and platform, including the Power Query and Data Model work behind it.
 
 ## Repository Structure
 
@@ -42,11 +42,11 @@ LICENSE
 
 ## Dataset
 
-The core dataset ([`data_jobs_salary_all.xlsx`](Resources/Datasets/data_jobs_salary_all.xlsx)) contains roughly 32,600 data job postings with the following fields:
+The core dataset ([`data_jobs_salary_all.xlsx`](https://github.com/chaganty18/Excel_Dashboards_Analysis/blob/main/Resources/Datasets/data_jobs_salary_all.xlsx)) contains roughly 32,600 data job postings with the following fields:
 
 `job_title_short`, `job_title`, `job_location`, `job_via`, `job_schedule_type`, `job_work_from_home`, `search_location`, `job_posted_date`, `job_no_degree_mention`, `job_health_insurance`, `job_country`, `salary_rate`, `salary_year_avg`, `salary_hour_avg`, `company_name`, `job_skills`
 
-[`data_jobs_20rows.xlsx`](Resources/Datasets/data_jobs_20rows.xlsx) is a trimmed down sample used for quick testing without loading the full dataset. [`data_jobs_salary_monthly.xlsx`](Resources/Datasets/data_jobs_salary_monthly.xlsx) and the [`data_jobs_monthly`](Resources/Datasets/data_jobs_monthly) folder break the same postings out by month for trend analysis.
+[`data_jobs_20rows.xlsx`](https://github.com/chaganty18/Excel_Dashboards_Analysis/blob/main/Resources/Datasets/data_jobs_20rows.xlsx) is a trimmed down sample used for quick testing without loading the full dataset. [`data_jobs_salary_monthly.xlsx`](https://github.com/chaganty18/Excel_Dashboards_Analysis/blob/main/Resources/Datasets/data_jobs_salary_monthly.xlsx) and the [`data_jobs_monthly`](https://github.com/chaganty18/Excel_Dashboards_Analysis/tree/main/Resources/Datasets/data_jobs_monthly) folder break the same postings out by month for trend analysis.
 
 ## Tools and Techniques
 
@@ -57,17 +57,17 @@ The core dataset ([`data_jobs_salary_all.xlsx`](Resources/Datasets/data_jobs_sal
 - Dynamic, formula driven dashboard design using named ranges and conditionally highlighted charts
 - Descriptive statistics for summarizing salary distributions
 
-Full details and screenshots of the Power Query and Data Model work are in the [Project 2 README](Project2-Analysis/README.md).
+Full details and screenshots of the Power Query and Data Model work are in the [Project 2 README](https://github.com/chaganty18/Excel_Dashboards_Analysis/blob/main/Project2-Analysis/README.md).
 
 ## Getting Started
 
 1. Clone or download this repository, keeping the folder structure shown above intact.
-2. Open [`Project1-Dashboard/1_Salary_Dashboard.xlsx`](Project1-Dashboard/1_Salary_Dashboard.xlsx) or [`Project2-Analysis/1_Project_Analysis.xlsx`](Project2-Analysis/1_Project_Analysis.xlsx) in Excel.
+2. Open [`Project1-Dashboard/1_Salary_Dashboard.xlsx`](https://github.com/chaganty18/Excel_Dashboards_Analysis/blob/main/Project1-Dashboard/1_Salary_Dashboard.xlsx) or [`Project2-Analysis/1_Project_Analysis.xlsx`](https://github.com/chaganty18/Excel_Dashboards_Analysis/blob/main/Project2-Analysis/1_Project_Analysis.xlsx) in Excel.
 3. If prompted, allow external connections and refresh the data (Data tab, Refresh All) to load the underlying dataset.
-4. See the [Project 1 README](Project1-Dashboard/README.md) and [Project 2 README](Project2-Analysis/README.md) for a full walkthrough of each workbook.
+4. See the [Project 1 README](https://github.com/chaganty18/Excel_Dashboards_Analysis/blob/main/Project1-Dashboard/README.md) and [Project 2 README](https://github.com/chaganty18/Excel_Dashboards_Analysis/blob/main/Project2-Analysis/README.md) for a full walkthrough of each workbook.
 
 Excel 365 or Excel 2021 or later is recommended, since the workbooks use dynamic array functions such as `FILTER`, `SORT`, and `XLOOKUP`.
 
 ## License
 
-See [LICENSE](LICENSE) for details.
+See [LICENSE](https://github.com/chaganty18/Excel_Dashboards_Analysis/blob/main/LICENSE) for details.
